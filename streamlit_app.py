@@ -53,6 +53,11 @@ about_pages = [about, cr]
 #st.title("Data Analytics ")
 st.logo("images/horizontal_blue.png", icon_image="images/icon_blue.png")
 
+st.caption(
+       "Aplicación recuperada y corregida | "
+       "Nombre: Victor Garcia Hernandez | Matrícula: A01784206"
+   )
+
 page_dict = {}
 
 page_dict["Introduction"] =  intro_pages

@@ -19,7 +19,7 @@ species = st.multiselect(
     "Select Species",
     options=eda.penguins['species'].unique(),
     default=eda.penguins['species'].unique(),
-    
+       key="viz_species",
 )
 
 
